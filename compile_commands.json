@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencv.exe.dir/src/opencv.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencv.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencv.cpp",
+  "output": "CMakeFiles/opencv.exe.dir/src/opencv.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvtranslate.exe.dir/src/opencvtranslate.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvtranslate.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvtranslate.cpp",
+  "output": "CMakeFiles/opencvtranslate.exe.dir/src/opencvtranslate.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvdraw.exe.dir/src/opencvdraw.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvdraw.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvdraw.cpp",
+  "output": "CMakeFiles/opencvdraw.exe.dir/src/opencvdraw.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvnoise.exe.dir/src/opencvnoise/opencvnoiseBlur.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseBlur.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseBlur.cpp",
+  "output": "CMakeFiles/opencvnoise.exe.dir/src/opencvnoise/opencvnoiseBlur.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvnoisegaussian.exe.dir/src/opencvnoise/opencvnoiseGaussianBlur.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseGaussianBlur.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseGaussianBlur.cpp",
+  "output": "CMakeFiles/opencvnoisegaussian.exe.dir/src/opencvnoise/opencvnoiseGaussianBlur.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvnoisemedian.exe.dir/src/opencvnoise/opencvnoiseMedianBlur.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseMedianBlur.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseMedianBlur.cpp",
+  "output": "CMakeFiles/opencvnoisemedian.exe.dir/src/opencvnoise/opencvnoiseMedianBlur.cpp.o"
+}
+]

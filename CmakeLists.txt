@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.10)
+project(opencv)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+# 寻找OpenCV的包,在
+find_package(OpenCV REQUIRED)
+# 打印cmake找到的opencv的包的路径
+message(STATUS "OpenCV version: ${OpenCV_VERSION}")
+
+include_directories(${OpenCV_INCLUDE_DIRS})
+message(STATUS "OpenCV include directories: ${OpenCV_INCLUDE_DIRS}")
+
+add_executable(opencv.exe src/opencv.cpp)
+add_executable(opencvtranslate.exe src/opencvtranslate.cpp)
+add_executable(opencvdraw.exe src/opencvdraw.cpp)
+add_executable(opencvnoise.exe src/opencvnoise/opencvnoiseBlur.cpp)
+add_executable(opencvnoisegaussian.exe src/opencvnoise/opencvnoiseGaussianBlur.cpp)
+add_executable(opencvnoisemedian.exe src/opencvnoise/opencvnoiseMedianBlur.cpp)
+# 链接OpenCV库
+target_link_libraries(opencv.exe ${OpenCV_LIBS})
+target_link_libraries(opencvtranslate.exe ${OpenCV_LIBS})
+target_link_libraries(opencvdraw.exe ${OpenCV_LIBS})
+target_link_libraries(opencvnoise.exe ${OpenCV_LIBS})
+target_link_libraries(opencvnoisegaussian.exe ${OpenCV_LIBS})
+target_link_libraries(opencvnoisemedian.exe ${OpenCV_LIBS})
