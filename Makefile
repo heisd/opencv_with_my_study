@@ -194,6 +194,19 @@ opencvnoisemedian.exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisemedian.exe.dir/build.make CMakeFiles/opencvnoisemedian.exe.dir/build
 .PHONY : opencvnoisemedian.exe/fast
 
+#=============================================================================
+# Target rules for targets named opencvmodify.exe
+
+# Build rule for target.
+opencvmodify.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencvmodify.exe
+.PHONY : opencvmodify.exe
+
+# fast build rule for target.
+opencvmodify.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/build
+.PHONY : opencvmodify.exe/fast
+
 src/opencv.o: src/opencv.cpp.o
 .PHONY : src/opencv.o
 
@@ -241,6 +254,30 @@ src/opencvdraw.s: src/opencvdraw.cpp.s
 src/opencvdraw.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvdraw.exe.dir/build.make CMakeFiles/opencvdraw.exe.dir/src/opencvdraw.cpp.s
 .PHONY : src/opencvdraw.cpp.s
+
+src/opencvmodify.o: src/opencvmodify.cpp.o
+.PHONY : src/opencvmodify.o
+
+# target to build an object file
+src/opencvmodify.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/src/opencvmodify.cpp.o
+.PHONY : src/opencvmodify.cpp.o
+
+src/opencvmodify.i: src/opencvmodify.cpp.i
+.PHONY : src/opencvmodify.i
+
+# target to preprocess a source file
+src/opencvmodify.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/src/opencvmodify.cpp.i
+.PHONY : src/opencvmodify.cpp.i
+
+src/opencvmodify.s: src/opencvmodify.cpp.s
+.PHONY : src/opencvmodify.s
+
+# target to generate assembly for a file
+src/opencvmodify.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/src/opencvmodify.cpp.s
+.PHONY : src/opencvmodify.cpp.s
 
 src/opencvnoise/opencvnoiseBlur.o: src/opencvnoise/opencvnoiseBlur.cpp.o
 .PHONY : src/opencvnoise/opencvnoiseBlur.o
@@ -348,6 +385,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... opencv.exe"
 	@echo "... opencvdraw.exe"
+	@echo "... opencvmodify.exe"
 	@echo "... opencvnoise.exe"
 	@echo "... opencvnoisegaussian.exe"
 	@echo "... opencvnoisemedian.exe"
@@ -358,6 +396,9 @@ help:
 	@echo "... src/opencvdraw.o"
 	@echo "... src/opencvdraw.i"
 	@echo "... src/opencvdraw.s"
+	@echo "... src/opencvmodify.o"
+	@echo "... src/opencvmodify.i"
+	@echo "... src/opencvmodify.s"
 	@echo "... src/opencvnoise/opencvnoiseBlur.o"
 	@echo "... src/opencvnoise/opencvnoiseBlur.i"
 	@echo "... src/opencvnoise/opencvnoiseBlur.s"

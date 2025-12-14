@@ -29,16 +29,16 @@ int main(){
     cv::imshow("RGB",RGB);
     if (cv::waitKey(0) == 'q' || cv::waitKey(0) == ' ') {
         std::cout << "q or space is pressed" << std::endl;
-    }
-    // 保存图片
-    cv::imwrite("image/gray.png", gray);
-    cv::imwrite("image/HSV.png", HSV);
-    cv::imwrite("image/RGB.png", RGB);
-    // 释放资源
-    image.release();
-    HSV.release();
-    gray.release();
-    cv::destroyAllWindows();
-    return 0;
+        // 保存图片
+        cv::imwrite("image/gray.png", gray);
+        cv::imwrite("image/HSV.png", HSV);
+        cv::imwrite("image/RGB.png", RGB);
+        // 释放资源
+        image.release();
+        HSV.release();
+        gray.release();
+        cv::destroyAllWindows();
+        return 0;
+    }   
 
 }

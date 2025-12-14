@@ -69,6 +69,7 @@ all: CMakeFiles/opencvdraw.exe.dir/all
 all: CMakeFiles/opencvnoise.exe.dir/all
 all: CMakeFiles/opencvnoisegaussian.exe.dir/all
 all: CMakeFiles/opencvnoisemedian.exe.dir/all
+all: CMakeFiles/opencvmodify.exe.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -78,6 +79,7 @@ codegen: CMakeFiles/opencvdraw.exe.dir/codegen
 codegen: CMakeFiles/opencvnoise.exe.dir/codegen
 codegen: CMakeFiles/opencvnoisegaussian.exe.dir/codegen
 codegen: CMakeFiles/opencvnoisemedian.exe.dir/codegen
+codegen: CMakeFiles/opencvmodify.exe.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -91,6 +93,7 @@ clean: CMakeFiles/opencvdraw.exe.dir/clean
 clean: CMakeFiles/opencvnoise.exe.dir/clean
 clean: CMakeFiles/opencvnoisegaussian.exe.dir/clean
 clean: CMakeFiles/opencvnoisemedian.exe.dir/clean
+clean: CMakeFiles/opencvmodify.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -132,7 +135,7 @@ CMakeFiles/opencv.exe.dir/clean:
 CMakeFiles/opencvtranslate.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvtranslate.exe.dir/build.make CMakeFiles/opencvtranslate.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvtranslate.exe.dir/build.make CMakeFiles/opencvtranslate.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=11,12 "Built target opencvtranslate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=13,14 "Built target opencvtranslate.exe"
 .PHONY : CMakeFiles/opencvtranslate.exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +152,7 @@ opencvtranslate.exe: CMakeFiles/opencvtranslate.exe.dir/rule
 # codegen rule for target.
 CMakeFiles/opencvtranslate.exe.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvtranslate.exe.dir/build.make CMakeFiles/opencvtranslate.exe.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=11,12 "Finished codegen for target opencvtranslate.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=13,14 "Finished codegen for target opencvtranslate.exe"
 .PHONY : CMakeFiles/opencvtranslate.exe.dir/codegen
 
 # clean rule for target.
@@ -196,7 +199,7 @@ CMakeFiles/opencvdraw.exe.dir/clean:
 CMakeFiles/opencvnoise.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoise.exe.dir/build.make CMakeFiles/opencvnoise.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoise.exe.dir/build.make CMakeFiles/opencvnoise.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=5,6 "Built target opencvnoise.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=7,8 "Built target opencvnoise.exe"
 .PHONY : CMakeFiles/opencvnoise.exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -213,7 +216,7 @@ opencvnoise.exe: CMakeFiles/opencvnoise.exe.dir/rule
 # codegen rule for target.
 CMakeFiles/opencvnoise.exe.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoise.exe.dir/build.make CMakeFiles/opencvnoise.exe.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=5,6 "Finished codegen for target opencvnoise.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=7,8 "Finished codegen for target opencvnoise.exe"
 .PHONY : CMakeFiles/opencvnoise.exe.dir/codegen
 
 # clean rule for target.
@@ -228,7 +231,7 @@ CMakeFiles/opencvnoise.exe.dir/clean:
 CMakeFiles/opencvnoisegaussian.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisegaussian.exe.dir/build.make CMakeFiles/opencvnoisegaussian.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisegaussian.exe.dir/build.make CMakeFiles/opencvnoisegaussian.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=7,8 "Built target opencvnoisegaussian.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=9,10 "Built target opencvnoisegaussian.exe"
 .PHONY : CMakeFiles/opencvnoisegaussian.exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +248,7 @@ opencvnoisegaussian.exe: CMakeFiles/opencvnoisegaussian.exe.dir/rule
 # codegen rule for target.
 CMakeFiles/opencvnoisegaussian.exe.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisegaussian.exe.dir/build.make CMakeFiles/opencvnoisegaussian.exe.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=7,8 "Finished codegen for target opencvnoisegaussian.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=9,10 "Finished codegen for target opencvnoisegaussian.exe"
 .PHONY : CMakeFiles/opencvnoisegaussian.exe.dir/codegen
 
 # clean rule for target.
@@ -260,7 +263,7 @@ CMakeFiles/opencvnoisegaussian.exe.dir/clean:
 CMakeFiles/opencvnoisemedian.exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisemedian.exe.dir/build.make CMakeFiles/opencvnoisemedian.exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisemedian.exe.dir/build.make CMakeFiles/opencvnoisemedian.exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=9,10 "Built target opencvnoisemedian.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=11,12 "Built target opencvnoisemedian.exe"
 .PHONY : CMakeFiles/opencvnoisemedian.exe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,13 +280,45 @@ opencvnoisemedian.exe: CMakeFiles/opencvnoisemedian.exe.dir/rule
 # codegen rule for target.
 CMakeFiles/opencvnoisemedian.exe.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisemedian.exe.dir/build.make CMakeFiles/opencvnoisemedian.exe.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=9,10 "Finished codegen for target opencvnoisemedian.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=11,12 "Finished codegen for target opencvnoisemedian.exe"
 .PHONY : CMakeFiles/opencvnoisemedian.exe.dir/codegen
 
 # clean rule for target.
 CMakeFiles/opencvnoisemedian.exe.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvnoisemedian.exe.dir/build.make CMakeFiles/opencvnoisemedian.exe.dir/clean
 .PHONY : CMakeFiles/opencvnoisemedian.exe.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/opencvmodify.exe.dir
+
+# All Build rule for target.
+CMakeFiles/opencvmodify.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=5,6 "Built target opencvmodify.exe"
+.PHONY : CMakeFiles/opencvmodify.exe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/opencvmodify.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/opencvmodify.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles 0
+.PHONY : CMakeFiles/opencvmodify.exe.dir/rule
+
+# Convenience name for target.
+opencvmodify.exe: CMakeFiles/opencvmodify.exe.dir/rule
+.PHONY : opencvmodify.exe
+
+# codegen rule for target.
+CMakeFiles/opencvmodify.exe.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=5,6 "Finished codegen for target opencvmodify.exe"
+.PHONY : CMakeFiles/opencvmodify.exe.dir/codegen
+
+# clean rule for target.
+CMakeFiles/opencvmodify.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/clean
+.PHONY : CMakeFiles/opencvmodify.exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

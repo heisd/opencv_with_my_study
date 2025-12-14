@@ -34,5 +34,11 @@
   "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvnoisemedian.exe.dir/src/opencvnoise/opencvnoiseMedianBlur.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseMedianBlur.cpp",
   "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvnoise/opencvnoiseMedianBlur.cpp",
   "output": "CMakeFiles/opencvnoisemedian.exe.dir/src/opencvnoise/opencvnoiseMedianBlur.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvmodify.exe.dir/src/opencvmodify.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvmodify.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvmodify.cpp",
+  "output": "CMakeFiles/opencvmodify.exe.dir/src/opencvmodify.cpp.o"
 }
 ]

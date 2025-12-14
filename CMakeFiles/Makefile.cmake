@@ -68,4 +68,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/opencvnoise.exe.dir/DependInfo.cmake"
   "CMakeFiles/opencvnoisegaussian.exe.dir/DependInfo.cmake"
   "CMakeFiles/opencvnoisemedian.exe.dir/DependInfo.cmake"
+  "CMakeFiles/opencvmodify.exe.dir/DependInfo.cmake"
   )
