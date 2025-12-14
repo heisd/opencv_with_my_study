@@ -10,7 +10,7 @@ int main(){
         std::cout<<"图片加载失败"<<std::endl;
         return -1;
     }
-    // 噪音处理,使用中值去除噪声,ksize值一般选择3
+    // 噪音处理,使用均值模糊去除噪声,ksize值一般选择3
     cv::blur(OriginImage,RemovalNoiseImage ,cv::Size(7,7));
     cv::imshow("RemovalNoiseImage",RemovalNoiseImage);
     if(cv::waitKey(0)=='q'){
