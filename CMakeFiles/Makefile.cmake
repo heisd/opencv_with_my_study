@@ -69,4 +69,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/opencvnoisegaussian.exe.dir/DependInfo.cmake"
   "CMakeFiles/opencvnoisemedian.exe.dir/DependInfo.cmake"
   "CMakeFiles/opencvmodify.exe.dir/DependInfo.cmake"
+  "CMakeFiles/opencvcamera_noise.exe.dir/DependInfo.cmake"
+  "CMakeFiles/opencvcamera_object.exe.dir/DependInfo.cmake"
   )

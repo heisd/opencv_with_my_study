@@ -5,5 +5,7 @@
 /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/opencvnoisegaussian.exe.dir
 /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/opencvnoisemedian.exe.dir
 /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/opencvmodify.exe.dir
+/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/opencvcamera_noise.exe.dir
+/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/opencvcamera_object.exe.dir
 /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/edit_cache.dir
 /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles/rebuild_cache.dir

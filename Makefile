@@ -207,6 +207,32 @@ opencvmodify.exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvmodify.exe.dir/build.make CMakeFiles/opencvmodify.exe.dir/build
 .PHONY : opencvmodify.exe/fast
 
+#=============================================================================
+# Target rules for targets named opencvcamera_noise.exe
+
+# Build rule for target.
+opencvcamera_noise.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencvcamera_noise.exe
+.PHONY : opencvcamera_noise.exe
+
+# fast build rule for target.
+opencvcamera_noise.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_noise.exe.dir/build.make CMakeFiles/opencvcamera_noise.exe.dir/build
+.PHONY : opencvcamera_noise.exe/fast
+
+#=============================================================================
+# Target rules for targets named opencvcamera_object.exe
+
+# Build rule for target.
+opencvcamera_object.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencvcamera_object.exe
+.PHONY : opencvcamera_object.exe
+
+# fast build rule for target.
+opencvcamera_object.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_object.exe.dir/build.make CMakeFiles/opencvcamera_object.exe.dir/build
+.PHONY : opencvcamera_object.exe/fast
+
 src/opencv.o: src/opencv.cpp.o
 .PHONY : src/opencv.o
 
@@ -230,6 +256,54 @@ src/opencv.s: src/opencv.cpp.s
 src/opencv.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencv.exe.dir/build.make CMakeFiles/opencv.exe.dir/src/opencv.cpp.s
 .PHONY : src/opencv.cpp.s
+
+src/opencvcamera_noise.o: src/opencvcamera_noise.cpp.o
+.PHONY : src/opencvcamera_noise.o
+
+# target to build an object file
+src/opencvcamera_noise.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_noise.exe.dir/build.make CMakeFiles/opencvcamera_noise.exe.dir/src/opencvcamera_noise.cpp.o
+.PHONY : src/opencvcamera_noise.cpp.o
+
+src/opencvcamera_noise.i: src/opencvcamera_noise.cpp.i
+.PHONY : src/opencvcamera_noise.i
+
+# target to preprocess a source file
+src/opencvcamera_noise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_noise.exe.dir/build.make CMakeFiles/opencvcamera_noise.exe.dir/src/opencvcamera_noise.cpp.i
+.PHONY : src/opencvcamera_noise.cpp.i
+
+src/opencvcamera_noise.s: src/opencvcamera_noise.cpp.s
+.PHONY : src/opencvcamera_noise.s
+
+# target to generate assembly for a file
+src/opencvcamera_noise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_noise.exe.dir/build.make CMakeFiles/opencvcamera_noise.exe.dir/src/opencvcamera_noise.cpp.s
+.PHONY : src/opencvcamera_noise.cpp.s
+
+src/opencvcamera_object.o: src/opencvcamera_object.cpp.o
+.PHONY : src/opencvcamera_object.o
+
+# target to build an object file
+src/opencvcamera_object.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_object.exe.dir/build.make CMakeFiles/opencvcamera_object.exe.dir/src/opencvcamera_object.cpp.o
+.PHONY : src/opencvcamera_object.cpp.o
+
+src/opencvcamera_object.i: src/opencvcamera_object.cpp.i
+.PHONY : src/opencvcamera_object.i
+
+# target to preprocess a source file
+src/opencvcamera_object.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_object.exe.dir/build.make CMakeFiles/opencvcamera_object.exe.dir/src/opencvcamera_object.cpp.i
+.PHONY : src/opencvcamera_object.cpp.i
+
+src/opencvcamera_object.s: src/opencvcamera_object.cpp.s
+.PHONY : src/opencvcamera_object.s
+
+# target to generate assembly for a file
+src/opencvcamera_object.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_object.exe.dir/build.make CMakeFiles/opencvcamera_object.exe.dir/src/opencvcamera_object.cpp.s
+.PHONY : src/opencvcamera_object.cpp.s
 
 src/opencvdraw.o: src/opencvdraw.cpp.o
 .PHONY : src/opencvdraw.o
@@ -384,6 +458,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opencv.exe"
+	@echo "... opencvcamera_noise.exe"
+	@echo "... opencvcamera_object.exe"
 	@echo "... opencvdraw.exe"
 	@echo "... opencvmodify.exe"
 	@echo "... opencvnoise.exe"
@@ -393,6 +469,12 @@ help:
 	@echo "... src/opencv.o"
 	@echo "... src/opencv.i"
 	@echo "... src/opencv.s"
+	@echo "... src/opencvcamera_noise.o"
+	@echo "... src/opencvcamera_noise.i"
+	@echo "... src/opencvcamera_noise.s"
+	@echo "... src/opencvcamera_object.o"
+	@echo "... src/opencvcamera_object.i"
+	@echo "... src/opencvcamera_object.s"
 	@echo "... src/opencvdraw.o"
 	@echo "... src/opencvdraw.i"
 	@echo "... src/opencvdraw.s"
