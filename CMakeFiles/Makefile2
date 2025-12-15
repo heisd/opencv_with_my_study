@@ -72,6 +72,7 @@ all: CMakeFiles/opencvnoisemedian.exe.dir/all
 all: CMakeFiles/opencvmodify.exe.dir/all
 all: CMakeFiles/opencvcamera_noise.exe.dir/all
 all: CMakeFiles/opencvcamera_object.exe.dir/all
+all: CMakeFiles/opencvyolo.exe.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -84,6 +85,7 @@ codegen: CMakeFiles/opencvnoisemedian.exe.dir/codegen
 codegen: CMakeFiles/opencvmodify.exe.dir/codegen
 codegen: CMakeFiles/opencvcamera_noise.exe.dir/codegen
 codegen: CMakeFiles/opencvcamera_object.exe.dir/codegen
+codegen: CMakeFiles/opencvyolo.exe.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -100,6 +102,7 @@ clean: CMakeFiles/opencvnoisemedian.exe.dir/clean
 clean: CMakeFiles/opencvmodify.exe.dir/clean
 clean: CMakeFiles/opencvcamera_noise.exe.dir/clean
 clean: CMakeFiles/opencvcamera_object.exe.dir/clean
+clean: CMakeFiles/opencvyolo.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -389,6 +392,38 @@ CMakeFiles/opencvcamera_object.exe.dir/codegen:
 CMakeFiles/opencvcamera_object.exe.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_object.exe.dir/build.make CMakeFiles/opencvcamera_object.exe.dir/clean
 .PHONY : CMakeFiles/opencvcamera_object.exe.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/opencvyolo.exe.dir
+
+# All Build rule for target.
+CMakeFiles/opencvyolo.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=19,20 "Built target opencvyolo.exe"
+.PHONY : CMakeFiles/opencvyolo.exe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/opencvyolo.exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/opencvyolo.exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles 0
+.PHONY : CMakeFiles/opencvyolo.exe.dir/rule
+
+# Convenience name for target.
+opencvyolo.exe: CMakeFiles/opencvyolo.exe.dir/rule
+.PHONY : opencvyolo.exe
+
+# codegen rule for target.
+CMakeFiles/opencvyolo.exe.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/liquanyan/Desktop/OpenCV_CPP/CMakeFiles --progress-num=19,20 "Finished codegen for target opencvyolo.exe"
+.PHONY : CMakeFiles/opencvyolo.exe.dir/codegen
+
+# clean rule for target.
+CMakeFiles/opencvyolo.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/clean
+.PHONY : CMakeFiles/opencvyolo.exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

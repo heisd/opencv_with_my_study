@@ -52,5 +52,11 @@
   "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvcamera_object.exe.dir/src/opencvcamera_object.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/opencvcamera_object.cpp",
   "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/opencvcamera_object.cpp",
   "output": "CMakeFiles/opencvcamera_object.exe.dir/src/opencvcamera_object.cpp.o"
+},
+{
+  "directory": "/Users/liquanyan/Desktop/OpenCV_CPP",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/Cellar/opencv/4.12.0_16/include/opencv4 -std=gnu++11 -arch arm64 -o CMakeFiles/opencvyolo.exe.dir/src/yolo/opencvyolo.cpp.o -c /Users/liquanyan/Desktop/OpenCV_CPP/src/yolo/opencvyolo.cpp",
+  "file": "/Users/liquanyan/Desktop/OpenCV_CPP/src/yolo/opencvyolo.cpp",
+  "output": "CMakeFiles/opencvyolo.exe.dir/src/yolo/opencvyolo.cpp.o"
 }
 ]

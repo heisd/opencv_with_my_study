@@ -71,4 +71,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/opencvmodify.exe.dir/DependInfo.cmake"
   "CMakeFiles/opencvcamera_noise.exe.dir/DependInfo.cmake"
   "CMakeFiles/opencvcamera_object.exe.dir/DependInfo.cmake"
+  "CMakeFiles/opencvyolo.exe.dir/DependInfo.cmake"
   )

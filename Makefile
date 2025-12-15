@@ -233,6 +233,19 @@ opencvcamera_object.exe/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvcamera_object.exe.dir/build.make CMakeFiles/opencvcamera_object.exe.dir/build
 .PHONY : opencvcamera_object.exe/fast
 
+#=============================================================================
+# Target rules for targets named opencvyolo.exe
+
+# Build rule for target.
+opencvyolo.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencvyolo.exe
+.PHONY : opencvyolo.exe
+
+# fast build rule for target.
+opencvyolo.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/build
+.PHONY : opencvyolo.exe/fast
+
 src/opencv.o: src/opencv.cpp.o
 .PHONY : src/opencv.o
 
@@ -449,6 +462,30 @@ src/opencvtranslate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvtranslate.exe.dir/build.make CMakeFiles/opencvtranslate.exe.dir/src/opencvtranslate.cpp.s
 .PHONY : src/opencvtranslate.cpp.s
 
+src/yolo/opencvyolo.o: src/yolo/opencvyolo.cpp.o
+.PHONY : src/yolo/opencvyolo.o
+
+# target to build an object file
+src/yolo/opencvyolo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/src/yolo/opencvyolo.cpp.o
+.PHONY : src/yolo/opencvyolo.cpp.o
+
+src/yolo/opencvyolo.i: src/yolo/opencvyolo.cpp.i
+.PHONY : src/yolo/opencvyolo.i
+
+# target to preprocess a source file
+src/yolo/opencvyolo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/src/yolo/opencvyolo.cpp.i
+.PHONY : src/yolo/opencvyolo.cpp.i
+
+src/yolo/opencvyolo.s: src/yolo/opencvyolo.cpp.s
+.PHONY : src/yolo/opencvyolo.s
+
+# target to generate assembly for a file
+src/yolo/opencvyolo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opencvyolo.exe.dir/build.make CMakeFiles/opencvyolo.exe.dir/src/yolo/opencvyolo.cpp.s
+.PHONY : src/yolo/opencvyolo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -466,6 +503,7 @@ help:
 	@echo "... opencvnoisegaussian.exe"
 	@echo "... opencvnoisemedian.exe"
 	@echo "... opencvtranslate.exe"
+	@echo "... opencvyolo.exe"
 	@echo "... src/opencv.o"
 	@echo "... src/opencv.i"
 	@echo "... src/opencv.s"
@@ -493,6 +531,9 @@ help:
 	@echo "... src/opencvtranslate.o"
 	@echo "... src/opencvtranslate.i"
 	@echo "... src/opencvtranslate.s"
+	@echo "... src/yolo/opencvyolo.o"
+	@echo "... src/yolo/opencvyolo.i"
+	@echo "... src/yolo/opencvyolo.s"
 .PHONY : help
 
 
